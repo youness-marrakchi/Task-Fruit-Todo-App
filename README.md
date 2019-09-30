@@ -1,5 +1,5 @@
 ## A todo App Made With React.js
-  ** DISCLAIMER ** : this is my first React.js project. Feel free to improve It and add new features to it ..
+  ** DISCLAIMER ** : this is my first React.js project. Feel free to improve It and add new features to it .
   
       Made by: M.youness
 
