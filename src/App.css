@@ -1,22 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
-  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+/* form {
+  width: 100%;
+  border: 1px solid green;
+  position: relative;
+}
+input[type=text] {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+} */
+.container {
+  margin-bottom: 3rem;
+  padding: 0 10rem;
 }
 
-.App-logo {
-  height: 40vmin;
+@media (max-width:480px)  { 
+  /* smartphones, Android phones, landscape iPhone */ 
+  .container {
+    padding: 0 8px;
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.textfield {
+  padding: 14px 20px;
+  flex: 10;
+  box-shadow: 5px 8px 8px #8888885e;
+  border: 2px solid #e0e0e0;
+  border-right: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: 0px !important;
+  -webkit-transition: ease 1s;
+  -moz-transition: ease 1s;
+  -ms-transition: ease 1s ease-in-out;
+  -o-transition: ease 1s;
+  transition: ease 1s;
 }
-
-.App-link {
-  color: #09d3ac;
+.btn {
+  padding: 7px 20px;
+  background-color: #fff;
+  display: inline-block;
+  color: rgb(224, 130, 6);
+  border: 2px solid #e0e0e0;
+  border-left: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 5px 8px 8px #8888885e;
+  -webkit-transition: ease 1s;
+  -moz-transition: ease 1s;
+  -ms-transition: ease 1s ease-in-out;
+  -o-transition: ease 1s;
+  transition: ease 1s;
+}
+.btn:hover {
+  background-color: rgb(224, 130, 6);
+  color: #fff;
+  cursor: pointer;
+  border-color: rgb(224, 130, 6);
+}
+.ttldesc {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+}
+.desc {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 }

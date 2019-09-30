@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background-color: coral;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar a {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}

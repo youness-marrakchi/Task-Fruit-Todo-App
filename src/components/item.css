@@ -1,0 +1,25 @@
+button {
+    background-color: #fff;
+    color: rgb(168, 5, 27);
+    border-radius: 20px;
+    padding: 5px 19px;
+    border: 2px solid rgb(168, 5, 27);
+    float: right;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(168, 5, 27);
+    color: #fff;
+    animation: rotation 1s linear;
+}
+@-webkit-keyframes rotation {
+    0%     {background-color:rgb(168, 5, 27);}
+    50.0%  {background-color: rgb(148, 18, 18); border: 2px solid goldenrod;} /* your chosen 'mid' color */
+    100.0%  {background-color:rgb(168, 5, 27);}
+}
+
+@keyframes rotation {
+    0%     {background-color:red;}
+    50.0%  {background-color: rgb(148, 18, 18); border: 2px solid goldenrod;} /* your chosen 'mid' color */
+    100.0%  {background-color:rgb(168, 5, 27);}
+}
